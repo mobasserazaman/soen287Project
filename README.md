@@ -8,7 +8,7 @@ Pages
 - (if category folder does not exist, create it)
 
 Styles
-- Commit Styles to Styles Folder
+- Commit Styles to Styles in Page Folder
 
 Medias
 - Upload All form of medias in image folder
