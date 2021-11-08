@@ -38,9 +38,9 @@
             <th> Subtotal </th>
         </tr>
         
-        <tr>
+        <tr id = "row1">
             <th>
-                <button class="btn btn-outline-danger" type="button" id="myBtn" onclick="myFunction()">
+                <button class="btn btn-outline-danger" type="button" id="myBtn" onclick="removeElement('row1')">
                     <i class="bi bi-x"></i>
                 </button>
             </th>
@@ -50,19 +50,19 @@
             </td>
             <td> 0 </td>
             <td>
-                <button class="btn btn-light">
+                <button class="btn btn-light" id="minus1"onclick="decrementElement('num1')">
                     <i class="bi bi-dash"></i>
                 </button>
-                1
-                <button class="btn btn-light">
+               <input type="number" value="1" id ="num1">
+                <button class="btn btn-light" id="plus1" onclick="incrementElement('num1')">
                     <i class="bi bi-plus"></i>
                 </button>
             </td>
             <td>2.39$</td>
         </tr>
-        <tr>
+        <tr id = "row2">
             <th>
-                <button class="btn btn-outline-danger" type="button" id="myBtn" onclick="myFunction()">
+                <button class="btn btn-outline-danger" type="button" id="myBtn" onclick="removeElement('row2')">
                     <i class="bi bi-x"></i>
                 </button>
             </th>
@@ -72,11 +72,11 @@
             </td>
             <td> 0 </td>
             <td>
-                <button class="btn btn-light">
+                <button class="btn btn-light" id="minus2" onclick="decrementElement('num2')">
                 <i class="bi bi-dash"></i>
                 </button>
-                1
-                <button class="btn btn-light">
+                <input type="number" value="1" id ="num2">
+                <button class="btn btn-light" id="plus2" onclick="incrementElement('num2')">
                 <i class="bi bi-plus"></i>
                 </button>
             </td>
@@ -84,7 +84,7 @@
         </tr>
     </table>
 
-    <h2><button type="button" class="btn btn-outline-success">Keep buying</button></h2>
+    <h2><button type="button" class="btn btn-outline-success" onclick= "location.href='index.html';" >Keep buying</button></h2>
 
 
     <h2>CART TOTAL</h2>
@@ -110,5 +110,5 @@
             <th><h3>65$</h3></th>
         </tr>
     </table>
-    
+    <script src=javascript4.js></script>
 </body>
