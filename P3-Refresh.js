@@ -1,9 +1,10 @@
-document.getElementById("broccoli").value=getSavedValue("broccoli");
+
 document.getElementById("airpods").value = getSavedValue("airpods");
 document.getElementById("chuckroast").value = getSavedValue("chuckroast");
 document.getElementById("croissant").value = getSavedValue("croissant");
 document.getElementById("granolabar").value = getSavedValue("granolabar");
 document.getElementById("lysol").value = getSavedValue("lysol");
+document.getElementById("broccoli").value=getSavedValue("broccoli");
 
 
         function saveValue(e){
